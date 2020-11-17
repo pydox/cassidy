@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "us-west-2"
-  access_key = "AKIA5V3RNY2DOOSVVEWQ"
-  secret_key = "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"
+  access_key = "UR key"
+  secret_key = "ur KEY"
 }
 resource "aws_instance" "my-instance" {
   count         = "${var.instance_count}"
